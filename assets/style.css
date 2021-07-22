@@ -1,0 +1,64 @@
+/* goole font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/* common css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-position: bottom bottom;
+}
+
+
+/* countdown css */
+
+h2 {
+    font-size: 4rem;
+    margin-top: -5rem;
+    font-weight: normal;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 47px 0;
+}
+
+.countdown-container:after {
+    position: absolute;
+    background-color: #fff;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .8;
+    top: 0;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
+
+.big-text {
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
